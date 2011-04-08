@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical"
+    android:background="#751155" >
+
+<EditText android:typeface="serif" android:maxLength="32" android:hint="Tag" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/editText1"></EditText>
+<EditText android:typeface="serif" android:maxLength="256" android:hint="Message" android:layout_width="fill_parent" android:id="@+id/editText2" android:layout_height="180dip" android:gravity="top"></EditText>
+<Button android:clickable="true" android:typeface="serif" android:text="Submit" android:id="@+id/button1" android:layout_height="wrap_content" android:layout_gravity="clip_horizontal" android:layout_width="fill_parent"></Button>
+</LinearLayout>
